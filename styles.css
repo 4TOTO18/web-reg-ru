@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #171a21;
+    color: #b8b6b6;
+    line-height: 1.5;
+  }
+  
+  .steam-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background-color: #0f1116;
+    border-bottom: 1px solid #323741;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .main-nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .main-nav a {
+    color: #b8b6b6;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .main-nav a:hover {
+    color: #fff;
+  }
+  
+  .user-panel button {
+    background: #3275b8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .steam-main {
+    padding: 24px;
+  }
+  
+  .hero-banner {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero-banner h1 {
+    font-size: 48px;
+    margin-bottom: 12px;
+    color: #fff;
+  }
+  
+  .hero-banner p {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+  
+  .cta-button {
+    background: #6c9018;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .featured-games,
+  .news-updates {
+    margin-bottom: 40px;
+  }
+  
+  .featured-games h2,
+  .news-updates h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .game-card {
+    display: inline-block;
+    width: 200px;
+    margin-right: 16px;
+    background: #2a2e35;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .game-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .game-card h3 {
+    font-size: 16px;
+    margin: 12px 0 8px;
+    color: #fff;
+  }
+  
+  .game-card p {
+    color: #8b939e;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+  .news-item {
+    background: #2a2e35;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .news-item h3 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  .steam-footer {
+    background-color: #0f1116;
+    padding: 24px;
+    text-align: center;
+    border-top: 1px solid #323741;
+  }
+  
+  .steam-footer p {
+    color: #676a6e;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  
+  .steam-footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .steam-footer li a {
+    color: #676a6e;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .steam-footer li a:hover {
+    color: #b8b6b6;
+  }
+  
